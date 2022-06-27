@@ -1,0 +1,23 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "declaration": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "target": "ES2017",
+    "module": "CommonJS",
+    "types": ["node", "cypress"],
+    "lib": ["dom", "ES2019"],
+    "allowJs": true,
+    "checkJs": false,
+  },
+  "include": [
+    "cypress/e2e/**/*.ts", 
+    "cypress/step_definitions/**/*.ts"  
+  ]
+}
